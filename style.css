@@ -1,0 +1,87 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fullscreen Background Image */
+body {
+  background-color: rgba(0, 0, 0, 0.706);/* Adjust the path to your image */
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h2{
+  margin-top: -10px;
+  padding:20px ;
+
+}
+p{
+  padding: 20px;
+  color: green;
+}
+/* Container Styling */
+.container {
+  background: rgba(255, 255, 255, 0.531);
+  padding: 2rem;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+  border: 4px solid #ddd; /* Initial border color */
+  animation: border-color-change 2s infinite; /* Animation for border color change */
+}
+
+/* Form Elements */
+.input-field {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* Button Styling */
+button {
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Animation for Border Color */
+@keyframes border-color-change {
+  0% {
+    border-color: #ddd;
+  }
+ 
+   
+  40% {
+    border-color: yellowgreen;
+  }
+   
+  80% {
+    border-color: orange;
+  }
+  
+  100% {
+    border-color: rgba(6, 147, 100, 0.638);
+  }
+   
+}
+
+
