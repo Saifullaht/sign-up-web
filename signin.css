@@ -31,6 +31,13 @@
     border: 3px solid #007bff;
     animation: borderAnimation 2s infinite;
   }
+  #Account1{
+    display: flexbox;
+    flex-direction:column-reverse;
+    border: none;
+    margin-top: 10px;
+    color: white;
+  }
   #message{
     color: white;
     font-weight: 600;
@@ -80,11 +87,24 @@
     background-color: #007bff;
     border: none;
     color: #fff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 600;
+
+    margin: 18px;
     padding: 12px 20px;
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  ::placeholder{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+  }
+  #Account1{
+    text-decoration: none;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
   .submit-button:hover {

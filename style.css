@@ -21,7 +21,7 @@ header {
 
 nav {
   background: rgba(0, 0, 0, 0.7);
-  padding: 0px 0;
+  padding: 4px 0;
 }
 
 nav .container {
@@ -31,7 +31,30 @@ nav .container {
   padding: 0 5px;
 }
 
+.submit-button{
+  background-color: rgba(0, 0, 0, 0.019);
+  border: none;
+  color: white;
+  /* margin: 18px; */
+  padding: 8px 22px;
+  font-size: 16px;
+  font-size: 17px; font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding: 5px 20px; border: 1px solid transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.submit-button:hover{
+  background-color: white;
+  color: black;
+}
 
+p{
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: monospace;
+}
 
 
 
@@ -168,3 +191,49 @@ footer .container {
 }
 
 
+***************
+#border{
+margin-top: 50px;
+}
+.image-main{
+
+  border: 2px solid black;
+  width: 220px;
+  margin-top: 100px;
+  margin-left: 30px;
+  overflow: hidden;
+  border-radius: 12px;
+  
+}
+.image1{
+  width: 220px;
+}
+
+ 
+p{
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.black{
+font-weight: 700;
+justify-content: center;
+width: 80%;
+align-items: center;
+margin: 15px 0px 1px 20px;
+padding: 10px 10px 10px 15px;
+
+}
+.white{
+font-weight: 700;
+justify-content: center;
+width: 80%;
+align-items: center;
+margin: 15px 20px 10px 20px;
+padding: 10px 10px 10px 15px;
+
+}
+.main-1{
+  display: flex;
+}
