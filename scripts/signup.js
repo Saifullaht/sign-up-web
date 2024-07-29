@@ -7,7 +7,7 @@ const form = document.querySelector('#form2');
 const messageDiv = document.querySelector("#message");
 form.addEventListener  ('submit', async (event) => {  
     messageDiv.innerText = "Signup successfully!";
-
+    window.location.href = "./dashboard.html"
 try {
     event.preventDefault();
     const email = event.target.children[0].value;
@@ -18,5 +18,4 @@ try {
     messageDiv.innerText = error.message;
 }
    
-
 })

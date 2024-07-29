@@ -1,0 +1,98 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    /* background: linear-gradient(120deg, #f0f0f0, #e0e0e0); */
+    background: url('./assest/2.pngr_4k-HD.jpg') no-repeat center center/cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  #message{
+    color: white;
+    font-weight: 600;
+    font-family:monospace;
+    font-size: 15px;
+  }
+  
+  /* Container Styling */
+  .container {
+    background: #000000a3;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.015);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    border: 3px solid #007bff;
+    animation: borderAnimation 2s infinite;
+  }
+  
+  /* Form Border Animation */
+  @keyframes borderAnimation {
+    0% { border-color: #007bff; }
+    25% { border-color: #28a745; }
+    50% { border-color: #ffc107; }
+    75% { border-color: #dc3545; }
+    100% { border-color: #007bff; }
+  }
+  
+  /* Heading Styling */
+  h2 {
+    margin-bottom: 20px;
+    color: #fff5f5;
+  }
+  
+  /* Input Field Styling */
+  .input-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: calc(100% - 30px);
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+    margin: 10px 0; /* Add spacing between input fields */
+  }
+  
+  .input-field:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Button Styling */
+  .submit-button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .submit-button:active {
+    background-color: #004494;
+  }
+                      
